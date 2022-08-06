@@ -48,6 +48,11 @@ nav {
     border-radius: 10px;
     margin-right: -20%;
     color: white;
+    transition: .4s;
+}
+.nav-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .upper-body h2 {
     text-align: center;
@@ -60,12 +65,15 @@ input[type="text"] {
 }
 .start-button {
     background-color: #fd3838;
-    width: ;
     border: none;
     height: 3.3em;
     margin-top: ;
     width: 17em;
     color: white;
+}
+.start-button:hover {
+    background-color: #e63838;
+    cursor: pointer;
 }
 .upper-body p {
     font-size: smaller;
@@ -159,4 +167,58 @@ input[type="text"] {
     stop-opacity: initial;
     opacity: 80%;
     margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .upper-content {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 80%;
+    }
+    .in-put {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .left-word {
+        font-size: 80%;
+        text-align: center;
+    }
+    .next-content {
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 80%;
+    }
+    .hero-content {
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 80%;
+    }
+    input[type="text"] {
+        width: 100%;
+        outline-style: hidden;
+    }
+    .start-button {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
 }
