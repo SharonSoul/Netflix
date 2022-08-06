@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Bahnschrift';
+    background-color: rgb(36, 34, 34);
+}
+.upper-body {
+    background-image: url(pexels-fauxels-3183190.jpg);
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-blend-mode: color;
+    padding-bottom: 10%;
+    /*margin-bottom: -14.5%;*/
+}
+.logo {
+    width: 10%;
+    margin-left: -20%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.upper-body h2, .upper-body h4, .upper-body p {
+    color: white;
+    margin: 1% 0%;
+}
+.upper-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% 20%;
+    flex-wrap: wrap;
+}
+.in-put {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-button {
+    background-color: #fd3838;
+    padding: .5% 1%;
+    border: none;
+    border-radius: 10px;
+    margin-right: -20%;
+    color: white;
+}
+.upper-body h2 {
+    text-align: center;
+    font-size: 180%;
+}
+input[type="text"] {
+    height: 3em;
+    width: 22em;
+    outline-style: hidden;
+}
+.start-button {
+    background-color: #fd3838;
+    width: ;
+    border: none;
+    height: 3.3em;
+    margin-top: ;
+    width: 17em;
+    color: white;
+}
+.upper-body p {
+    font-size: smaller;
+}
+.lower-pic {
+    width: 30%;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    stop-opacity: initial;
+    opacity: 100%;
+}
+.lower-body {
+    background-color: black;
+    margin-top: .4%;
+}
+.lower-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+
+.left-body {
+    background-color: #fd3838;
+    color: white;
+    margin-top: .4%;
+}
+.left-word {
+    color: white;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+.left-word p {
+    font-size: 120%;
+}
+.next-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-top: .4%;
+}
+.next-pic {
+    width: 50%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-right: 15%;
+    stop-opacity: initial;
+    opacity: 100%;
+    
+}
+.next-word {
+    color: white;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-right: 5%;
+}
+
+.hero-body {
+    background-color: black;
+    margin-top: .4%;
+}
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.hero-body {
+    background-color: #fd3838;
+    color: white;
+    margin-top: .4%;
+}
+.hero-word {
+    color: white;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.hero-word p {
+    font-size: 120%;
+}
+.hero-pic {
+    width: 50%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    stop-opacity: initial;
+    opacity: 80%;
+    margin-left: 10%;
+}
