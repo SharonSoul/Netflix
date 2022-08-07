@@ -197,17 +197,17 @@ input[type="text"] {
         font-size: 80%;
     }
     input[type="text"] {
-        width: 100%;
+        width: 70%;
         outline-style: hidden;
     }
     .start-button {
         display: block;
         margin: auto;
-        width: 100%;
+        width: 70%;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
     .upper-content {
         display: block;
         margin: auto;
@@ -230,6 +230,7 @@ input[type="text"] {
     }
 }
 
+/*
 @media only screen and (min-width: 768px) {
     
 }
@@ -241,3 +242,4 @@ input[type="text"] {
 @media only screen and (min-width: 1200px) {
     
 }
+*/
