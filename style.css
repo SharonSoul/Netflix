@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body {
-    font-family: 'Bahnschrift';
+    font-family: 'andrfont';
     background-color: rgb(36, 34, 34);
 }
 .upper-body {
@@ -208,7 +208,26 @@ input[type="text"] {
 }
 
 @media only screen and (min-width: 600px) {
-    
+    .upper-content {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 80%;
+    }
+    .in-put {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    input[type="text"] {
+        width: 50%;
+        outline-style: hidden;
+    }
+    .start-button {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
